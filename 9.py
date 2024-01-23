@@ -15,9 +15,17 @@ def solve_p1(array):
     return array[-1] + solve_p1(new_array)
 
 
+# 2 solving
 for line in organize_input(lines):
-    result += solve_p1(line)
+    reversed_line = list(reversed(line))
+    result += solve_p1(reversed_line)
 print(result)
+# 884
+
+#  1 solving
+# for line in organize_input(lines):
+#     result += solve_p1(line)
+# print(result)
 # 1974913369
 
 
