@@ -1,4 +1,4 @@
-file_path = '../text.txt'
+file_path = './text.txt'
 with open(file_path, 'r') as file:
     lines = file.readlines()
 lines = [line.strip() for line in lines]
